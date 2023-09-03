@@ -19,7 +19,7 @@ public class BookingTest {
     private WebDriverWait wait;
     private Home home;
     private Results results;
-    private final String propertyName = "Hotel Louis II";
+    private final String propertyName = "Hotel Eiffel Blomet";
 
     @BeforeClass
     public void setUp() {
@@ -42,7 +42,7 @@ public class BookingTest {
 
     @Test(priority = 3)
     public void selectDates() {
-        home.selectDates(2023, 4, 4, 24, 30);
+        home.selectDates(2023, 10, 10, 24, 30);
     }
 
     @Test(priority = 4)

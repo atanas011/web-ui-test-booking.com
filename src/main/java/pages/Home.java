@@ -15,11 +15,11 @@ public class Home {
     private final WebDriverWait wait;
 
     private final By closeModalBtn = By.cssSelector("[aria-label='Dismiss sign-in info.']");
-    private final By whereTo = By.id(":Ra9:");
+    private final By whereTo = By.id(":re:");
     private final By datePicker = By.cssSelector("[data-testid='date-display-field-start']");
     private static final String dataDate = "//span[@data-date";
     private final By numsPicker = By.cssSelector("[data-testid='searchbox-form-button-icon']");
-    private final By addChildBtn = By.cssSelector("[id='group_children']~div>[class*='d64a4ea64d']");
+    private final By addChildBtn = By.cssSelector("[id='group_children']~div>[class*='f4d78af12a']");
     private final By ageDropdown = By.name("age");
     private final By searchBtn = By.cssSelector("[type='submit']");
 
